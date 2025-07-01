@@ -21,4 +21,4 @@ This Hospital Website is a user-friendly, responsive platform designed to enhanc
 - **Development Environment**: Visual Studio Code
 - **Additional Tools**: Google Maps API for location services
 
-- For a detailed overview of the website’s design, structure, and features, refer to the [Hospital-Management.pdf](https://github.com/sadia-marzia/Hospital-Management-Website/blob/main/Hospital-Management.pdf).
+- For a detailed overview of the website’s design, structure, and features, refer to the [Hospital-Management.pdf](https://github.com/sadia-marzia/Hospital-Management-Website/blob/main/Hospital%20Management.pdf).
