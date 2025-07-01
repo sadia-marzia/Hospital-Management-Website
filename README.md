@@ -20,3 +20,5 @@ This Hospital Website is a user-friendly, responsive platform designed to enhanc
 - **Database**: MySQL
 - **Development Environment**: Visual Studio Code
 - **Additional Tools**: Google Maps API for location services
+
+The website can be visualized from the **Hospital Management.pdf**.
