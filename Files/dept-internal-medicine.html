@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dept.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Welcome to our service</title>
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+<script>
+$.get("navigation.html", function(data){
+    $("#nav-placeholder").replaceWith(data);
+});
+</script>
+<section class="department" id="department">
+    <div class="backg">
+        <h1><b>OUR DEPARTMENTS</b></h1>
+         <p>A list of all our departments.</p> 
+        </div>
+</section>
+
+<section class="dept" id="dept">
+    <div class="dep">
+        <h1 class="heading">Our Departments</h1>
+        <ul id="dept">
+            <li ><a href="department.html" >All Department</a></li>
+            <li><a href="dept-interconventional-cardiology.html">Interconventional Cardiology</a></li>
+            <li class="active"><a href="dept-internal-medicine.html">Internal Medicine</a></li>
+            <li><a href="dept-neurology.html">Neurology</a></li>
+            <li><a href="dept-gynacology.html">Gynaecology</a></li>
+            <li><a href="dept-pediatric.html">Pediatric and Neonatology</a></li>
+            <li><a href="dept-ent.html">ENT</a></li>
+            <li><a href="dept-orthopedic.html">Orthopedic</a></li>
+            <li><a href="dept-burn.html">Burn & Plastic Surgery</a></li>
+        </ul>
+    </div>
+</section>
+
+<section class="description" id="description">
+    <h1 class="heading">Internal Medicine</h1>
+    <div class="des">
+        <h4>Internal medicine is a medical specialty in which physicians apply scientific knowledge and clinical expertise to diagnose and treat adults with a very broad range of health concerns and diseases. Physicians who specialize in internal medicine are called internists or general internists.</h4>
+        <p>A Comprehensive Internal Medicine Center become operational at the aim to provide an International standard treatment facility to satisfy and meet the demands of our Patients. Department of Internal Medicine focuses on the diagnosis, treatment, and prevention of non-surgical conditions in adults. is one of the leading hospitals in the country to be providing advanced and full Internal Medicine treatment facilities under one roof. The department provides a wide range of high quality cross-specialty health care services, including physical examinations, preventive screenings and immunizations, urgent care for medical conditions, and referrals to surgical specialists when appropriate.</p>
+        
+        <p><br></p>
+    </div>    
+    <div class="link">
+
+        <img src="/pics/internal-medicine.jpg" alt="cardiology">
+        <div class="option">
+            <h6><a href="Internalmedicine.html">Check out for our consultant </a><a href="contactus.html">Contact Us</a><a href="appoinment.html">Book an Appoinment</a></h6>
+            
+
+        </div>
+       
+
+    </div>
+        
+
+</section>
+
+
+<div id="fot-placeholder"></div>
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script>
+$.get("footer.html", function(data){
+$("#fot-placeholder").replaceWith(data);
+});
+</script>
+
+</body>
+</html>

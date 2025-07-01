@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /*font-family:'Segoe UI';*/
+    font-weight: 400;
+    background-color:white;
+}
+.book{
+   
+     background:url("/pics/appoinment.jpg") no-repeat; 
+    background-size:100%;
+    padding: 30px 0px;
+    min-height: 550px;
+    position: relative;
+}
+
+.book:before{
+    content: "";
+    position: absolute;
+    width:100%;
+    height: 100%;
+    background:rgba(136, 134, 211, 0.3);
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+}
+
+.book .row{
+     
+    height: 100%;
+    width: 100%;
+    position: relative; 
+     justify-content: center;
+    align-items: center;
+    
+} 
+
+    .book .row h1 {
+        font-weight: 500px;
+        font-size: 50px;
+        color: rgb(20, 9, 63);
+        text-shadow: 1px 1px 1px rgb(0, 0, 0) ;
+        position: relative;
+        padding-bottom: 30px;
+        text-align: center;
+        
+    }
+  
+  .book .row form{
+    /* flex:1 1 45rem; */
+   
+    margin: 0px 400px;
+    background-color: rgb(39, 40, 73,.5) ;
+    /* border:rgb(58, 44, 18); */
+    /* box-shadow: rgb(10, 3, 43); 
+    text-align: center;*/
+    padding: 20px;
+    border-radius: .5rem;
+    max-width: 800px;
+   
+  }  
+  .book .row form .box{
+    width: 100%;
+    /* margin: .7rem 0; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    /* border: rgb(43, 23, 85); */
+    
+    
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-transform: none;
+    /* padding:10px ; */
+    padding: 12px 14px;
+    
+  }
+  .book .row form .box:hover{
+    border-color: rgb(31, 21, 91);
+    background-color: rgba(236, 246, 250);
+    border-style:groove;
+    
+  }
+   .book .row  .btn{
+
+    margin: .7rem 0;
+    border-radius: 5px;
+    border: rgb(43, 23, 85);
+    margin: 15px; 
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-transform: none;
+    margin-left: 35%;
+    padding:10px 30px ;
+  }
+  .book .row  .btn:hover{
+background-color: rgb(13, 13, 74);
+color: aliceblue;
+  } 
+  /* button{
+
+    margin: .7rem 0;
+    border-radius: 5px;
+    border: rgb(43, 23, 85);
+    margin: 15px; 
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-transform: none;
+    margin-left: 35%;
+    padding:10px 30px ;
+  }
+  button:hover{
+background-color: rgb(13, 13, 74);
+color: aliceblue;
+  } */
+  span{
+    color: white;
+    font-size: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /*Responsive*/
+@media(max-width:1415px){
+
+  .info{
+    display: flex;
+  
+  }
+  span{
+    width: 50%;
+    padding-top: 5px;
+  
+  }
+  .book .row form .box {
+    
+    margin-top: 0px;
+    margin-bottom: 8px;
+    
+    font-size: 14px;
+    
+    padding: 15px 6px;
+}
+.book .row form{
+  /* flex:1 1 45rem; */
+ 
+  margin: 0px 250px;
+}  
+}
+
+
+
+@media(max-width:1085px){
+
+  .book .row h1 {
+    font-weight: 200px;
+    font-size: 40px;  
+    padding-bottom: 10px;  
+}
+  span{
+    width: 50%;
+    padding-top: 5px;
+    font-size: 17px;
+    
+  
+  }
+  .book .row form .box {
+    
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    padding: 10px 8px;
+}
+.book .row form{
+  /* flex:1 1 45rem; */
+ padding: 12px;
+  margin: 0px 250px;
+  
+}  
+.book .row  .btn{
+ 
+  margin: 5px 0;
+  margin: 5px; 
+  font-size: 18px;
+  padding:7px 15px ;
+  margin-left: 35%;
+}
+
+}
+
+@media(max-width:985px){
+  .book{
+   padding: 20px 0px;
+   min-height: 450px;
+   
+}
+  .book .row h1 {
+    font-weight: 0px;
+    font-size: 30px;  
+    text-shadow: 0px 0px 0px rgb(0, 0, 0) ;
+}
+  span{
+    padding-top: 8px;
+    font-size: 13px;
+  }
+  .book .row form .box {
+    margin-bottom: 5px;
+    font-size: 12px;
+    padding: 8px 5px;
+}
+.book .row form{
+  /* flex:1 1 45rem; */
+ padding: 12px;
+  margin: 0px 190px;
+  
+}  
+.book .row  .btn{
+
+  margin-left: 32%;
+}
+
+}
+
+
+@media(max-width:875px){
+  .book{
+   padding: 10px 0px;
+   min-height: 400px;
+   
+}
+  .book .row h1 {
+    font-weight: 0px;
+    font-size: 25px;  
+}
+  span{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+    font-size: 11px;
+  }
+  .book .row form .box {
+    font-size: 10px;
+
+}
+.book .row form{
+  /* flex:1 1 45rem; */
+ padding: 8px;
+  margin: 0px 180px;
+  
+}  
+.book .row  .btn{
+  margin: 2px; 
+  font-size: 13px;
+  padding:7px 8px ;
+  margin-left: 35%;
+}
+
+}
+
+@media(max-width:680px){
+.book .row form{
+  /* flex:1 1 45rem; */
+ padding: 8px;
+  margin: 0px 150px;
+  
+}  
+}
+
+
+@media(max-width:620px){
+  .book{
+    background-image: linear-gradient(to right, rgba(57, 66, 185, 0.5), rgba(16, 140, 171, 0.3), rgba(25, 209, 255, 0.3), rgba(57, 66, 185, 0.5) );
+  }
+  .book .row h1 {
+    font-size: 20px;  
+}
+  span{
+    padding-top: 8px;
+    font-size: 13px;
+  }
+  .book .row form .box {
+    margin-bottom: 5px;
+    font-size: 12px;
+    padding: 8px 5px;
+    
+}
+.book .row  .btn{
+
+  margin-left: 35%;
+}
+.book .row form{
+  background-color: rgb(39, 40, 73,.3) ;
+  margin: 0px 80px;
+  
+}  
+}
+
+
+
+@media(max-width:555px){
+  .book .row h1 {
+    font-size: 20px; 
+    padding-top: 50px; 
+}
+  
+}
+
+
+@media(max-width:450px){
+  
+  .book .row h1 {
+    font-size: 18px;  
+}
+  span{
+    padding-top: 8px;
+    font-size: 12px;
+  }
+  .book .row form .box {
+    margin-bottom: 5px;
+    font-size: 10px;
+    padding: 5px 3px;
+    
+}
+.book .row  .btn{
+
+  margin-left: 30%;
+}
+.book .row form{
+  background-color: rgb(39, 40, 73,.3) ;
+  margin: 0px 40px;
+  
+}  
+}
+
+@media(max-width:392px){
+  
+  .book .row h1 {
+    padding-top: 100px;  
+}
+ 
+}

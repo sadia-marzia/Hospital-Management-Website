@@ -1,0 +1,189 @@
+
+/*footer css*/
+* {
+    margin: 0;
+    padding: 0;
+    /*box-sizing:border-box;*/
+}
+
+.footer {
+   
+    padding: 40px 0;
+    background-color:rgb(10, 7, 35);
+}
+#footer {
+    margin: 10px;
+    margin-top: 0px;
+    margin-left: 100px;
+    display: flex;
+    background-color:rgb(10, 7, 35);
+}
+.logo img{
+    height:50px;
+    width:60px;
+
+}
+#footer .name .logo{
+    display: flex;
+}
+.name .logo p{
+    font-size: 30px;
+    color: white;
+    align-self: center;
+}
+
+#footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-left: 50px;
+    
+}
+.list-inline{
+    display: flex;
+    
+    
+}
+.list-inline p{
+    font-size: 25px;
+    
+}
+#footer ul li a {
+    color:rgb(224, 220, 220);
+    text-decoration: none;
+    padding-right:40px;
+    
+   
+}
+.vl {
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 70px;
+  }
+#footer ul li {
+    padding:5px 5px;
+    
+}
+
+#footer ul li a:hover {
+    color: aqua;
+}
+
+
+
+
+
+.copyright {
+    margin-top: 0px;
+    margin-left:10px ;
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+    font-family: Arial;
+    text-align: center;
+}
+
+.footer .social {
+    text-align: center;
+    color:rgb(255, 255, 255);
+
+}
+.footer .social a {
+    font-size: larger;
+    color:rgb(255, 255, 255);
+    border: 1px solid;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 10px;
+    opacity: 1;
+}
+
+.footer .social a:hover {
+    color: aqua;
+}
+.loc{
+    color: white;
+    font-size: larger;
+    margin-left: 100px;
+}
+.loc a {
+    font-size: larger;
+    color: white;
+    border: 1px solid;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 10px;
+    opacity: 1;
+}
+.loc a:hover {
+    color: aqua;
+}
+
+@media(max-width:1125px){
+    .footer {
+        padding: 10px 0;
+       
+    }
+    #footer .name .logo{
+        display:block;
+    }
+    
+}
+
+
+
+@media(max-width:1080px){
+    .name .logo p{
+        font-size: 20px;
+    }
+    .list-inline{
+        display:block; 
+    }
+    .vl {
+        height: 190px;
+      }
+      .loc{
+        margin-left:10px;
+    }
+}
+@media(max-width:815px){
+    
+    .name .logo p{
+        font-size: 15px;
+    }
+    .logo img{
+        height:25px;
+        width:30px;
+        margin-left: 10px;
+    
+    }
+    .list-inline{
+        display:block; 
+    }
+    .vl {
+        height: 230px;
+      }
+      .loc{
+        margin-left:5px;
+    }
+    .name{
+        padding-top: 80px;
+    }
+    #footer ul {
+        font-size: 15px;
+        margin-left: 20px;
+        
+    }
+    #footer {
+        margin-left: 35px;
+        
+    }
+}

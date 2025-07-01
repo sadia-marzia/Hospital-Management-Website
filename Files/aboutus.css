@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:'Segoe UI';
+    font-weight: 400;
+    background-color: white;
+}
+.content{
+    
+    float:inline-start;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content h1{
+    font-size: 50px;
+    letter-spacing: 3.5px;
+    margin-top: 25px;
+    color: black;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+.content h2{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(45, 38, 146);
+    margin-top: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+.content p{
+ font-size: 30px;
+ font-family: serif;
+ margin-top: 10px;
+ line-height: 1.5;
+ padding: 5%;
+ text-align:left;
+}
+.content1{
+
+ float: none;
+ margin-left: 50px;
+ text-align: center;
+ align-items: center;
+
+}
+
+.content1 h1{
+ font-size: 50px;
+ letter-spacing: 3.5px;
+ margin-top: 25px;
+ color: black;
+ text-align: center;
+ align-items: center;
+    
+    
+}
+
+.content1 h2{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(45, 38, 146);
+    margin-top: 25px;
+   text-align: center;
+   align-items: center;
+}
+
+.content1 ul{
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+    line-height: 1.5;
+    text-align: center;
+    align-items: center;
+    list-style: none;
+}
+.content2 {
+   
+    float: none;
+    margin-left: 50px;
+    text-decoration: solid;
+    text-emphasis: none;
+    text-align: center;
+    align-items: center;
+
+}
+.content2 h1{
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 3.5px;
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.content2 p{
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    line-height: 2;
+    color: rgb(33, 33, 135);
+    text-align: center;
+    align-items: center;
+
+}
+
+
+
+.picture {
+    width:100vw;
+    height: 60vh;
+    position: relative;
+    background-image: url('/pics/About.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+  }
+
+
+  
+
+  .picture1 {
+    width:100vw;
+    height: 60vh;
+    position: relative;
+    background-image: url('/pics/About1.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+  }
+  
+  .about{
+    width: 100%;
+    min-height: 60%;
+    font-size: 26px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: right;
+   
+  }
+  .about h1 b{
+    font-size: 40px;
+
+  }
+  .about h1{
+    font-size: 25px;
+
+  }
+  .header{
+    padding: 15px 5%;
+    position:relative;
+    top:0; left:0; right:0;
+    z-index: 1000;
+    box-shadow: 0 5px 15px rgb(0, 0, 0,.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:rgb(255, 255, 255,.5);
+    
+}
+.logo img{
+    height:50px;
+    width:60px;
+
+}
+
+.header .logo{
+    font-size: 25px;
+    color: rgb(31, 20, 93);
+    display: flex;
+}
+
+.header .logo p{
+    align-self: center;
+
+}
+
+.header .bar a{
+    font-size: 18px;
+    color: black;
+    margin-left: 20px;
+    transition: padding .5s;
+}
+.header .bar a:hover{
+    color: rgb(176, 238, 252);
+    background-color: rgb(16, 16, 73);
+    padding: 8px;
+}
+.footer {
+   
+    padding: 40px 0;
+    background-color:rgb(10, 7, 35);
+}
+#footer {
+    margin: 10px;
+    margin-top: 0px;
+    margin-left: 100px;
+    display: flex;
+    background-color:rgb(10, 7, 35);
+}
+.logo img{
+    height:50px;
+    width:60px;
+
+}
+#footer .name .logo{
+    display: flex;
+}
+.name .logo p{
+    font-size: 30px;
+    color: white;
+    align-self: center;
+}
+

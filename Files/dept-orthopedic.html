@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dept.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Welcome to our service</title>
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+<script>
+$.get("navigation.html", function(data){
+    $("#nav-placeholder").replaceWith(data);
+});
+</script>
+<section class="department" id="department">
+    <div class="backg">
+        <h1><b>OUR DEPARTMENTS</b></h1>
+         <p>A list of all our departments.</p> 
+    </div>
+</section>
+
+<section class="dept" id="dept">
+    <div class="dep">
+        <h1 class="heading">Our Departments</h1>
+        <ul id="dept">
+            <li ><a href="department.html" >All Department</a></li>
+            <li><a href="dept-interconventional-cardiology.html">Interconventional Cardiology</a></li>
+            <li><a href="dept-internal-medicine.html">Internal Medicine</a></li>
+            <li><a href="dept-neurology.html">Neurology</a></li>
+            <li><a href="dept-gynacology.html">Gynaecology</a></li>
+            <li><a href="dept-pediatric.html">Pediatric and Neonatology</a></li>
+            <li><a href="dept-ent.html">ENT</a></li>
+            <li class="active"><a href="dept-orthopedic.html">Orthopedic</a></li>
+            <li><a href="dept-burn.html">Burn & Plastic Surgery</a></li>
+        </ul>
+    </div>
+</section>
+
+<section class="description" id="description">
+    <h1 class="heading">Orthopedic</h1>
+    <div class="des">
+        <h4>United Hospital Limited has one of best the orthopaedic department in the country, serving to provide 360º care as a Bone & Joint Centre. The Department of Orthopaedics has two full-time Consultants, Two part-time Consultant, a number of junior doctors, and supporting paramedical staff trained to deliver a 100% success rate. Our team diagnoses, operates and treats problems affecting the bones, joints and muscles of patients encompassing all age groups.</h4>
+        <p>We offer the best in orthopedic treatment, complex orthopedic surgeries and care for all orthopedic and joint related problems. The department boasts and well trained and highly skilled team of doctors and surgeons. The hospital provides excellent treatment for all sports injuries, joint pains and other common orthopedic conditions. </p>
+        <p><br></p>
+        <p>Our consultants have specific experience in a broad range of orthopedic specialties such as: Diagnosis of your injury or disorder.Treatment with medication, exercise, surgery or other treatment plans.Rehabilitation by recommending exercises or physical therapy to restore movement, strength and function.Prevention with information and treatment plans to prevent injury or slow the progression of diseases.</p>
+        <p><br></p>
+    </div>    
+    <div class="link">
+
+        <img src="/pics/Orthopedic.jpg" alt="cardiology">
+        <div class="option">
+            <h6><a href="Orthopedics.html">Check out for our consultant </a><a href="contactus.html">Contact Us</a><a href="appoinment.html">Book an Appoinment</a></h6>
+            
+
+        </div>
+       
+
+    </div>
+        
+
+
+
+</section>
+
+
+<div id="fot-placeholder"></div>
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script>
+$.get("footer.html", function(data){
+$("#fot-placeholder").replaceWith(data);
+});
+</script>
+
+</body>
+</html>

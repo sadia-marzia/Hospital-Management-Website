@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="doctor.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Welcome to our service</title>
+      </head>
+      <body>
+    
+          <div id="nav-placeholder"></div>
+        <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+    $.get("navigation.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+    </script>  
+        
+    
+  
+
+  <section class="doctor" id="doctor">
+    <div class="picture">
+        <h1><b>WE take care because we care</b></h1>
+        <p>The best doctor gives the least medicines</p>
+    </div>
+  </section>
+
+    <section class="dept" id="dept">
+        <div class="dep">
+            <h1 class="heading">Our Departments</h1>
+            <ul id="dept">
+                <li><a href="doctor.html">All Department</a></li>
+                <li class="active"><a href="Cardiology.html">Cardiology</a></li>
+                <li><a href="Internalmedicine.html">Internal Medicine</a></li>
+                <li><a href="Orthopedics.html">Orthopedics</a></li>
+                <li><a href="Neurosurgery.html">Neurosurgery</a></li>
+                <li><a href="Burn&Plastic-Surgery.html">Burn & Plastic Surgery</a></li>
+                <li><a href="ENT.html">ENT</a></li>
+                <li><a href="Gynaecology.html">Gynaecology</a></li>
+                <li><a href="Pediatrics.html">Pediatrics</a></li>
+            </ul>
+        </div>
+    </section>
+        <!--Services section-->
+        <section class="service" id="services">
+            <h1 class="heading">CARDIOLOGY Department</h1>
+            <div class="box-container">
+                
+                
+                
+                <div class="box">
+                    <img src="/pics/Doctors/doc1.png" alt="Doctor1">
+                    <h3>Prof. Dr. Uzzwal Kanti Das</h3>
+                    <p><span >Cardiology</span></p>
+                    <p><b>Speciality:</b> Chest & Respiratory Medicine</p>
+                    <p><b>Education:</b> MBBS, DTCD, FCPS, FCCP</p>
+                    <p><b>For Serial :</b> 01812 347308</p>
+                    
+                </div>
+
+                <div class="box">
+                    <img src="/pics/Doctors/doc10.png" alt="Doctor1">
+                    <h3>Prof. Dr. M. A. Rouf</h3>
+                    <p><span >Cardiology</span></p>
+                    <p><b>Speciality:</b>Cardiologist</p>
+                    <p><b>Education:</b> MBBS. FCPS, DTCD, D-Card </p>
+                    <p><b>For Serial :</b> 01812 347308</p>
+                    
+                </div>
+                <div class="box">
+                    <img src="/pics/Doctors/doc11.png" alt="Doctor1">
+                    <h3>Dr. Abu Tareq Iqbal</h3>
+                    <p><span >Cardiology</span></p>
+                    <p><b>Speciality:</b> Cardiologist</p>
+                    <p><b>Education:</b> MBBS, D.Card, MD(Medicine)</p>
+                    <p><b>For Serial :</b> 01812 469853</p>
+                    
+                </div>
+                
+                
+    
+            </div>
+    
+        </section>
+        
+    <div id="fot-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+<script>
+$.get("footer.html", function(data){
+    $("#fot-placeholder").replaceWith(data);
+});
+</script>
+</body>
+</html>

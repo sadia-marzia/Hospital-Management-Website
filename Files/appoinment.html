@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="appoinment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Welcome to our service</title>
+      </head>
+      <body>
+    
+          <div id="nav-placeholder"></div>
+        <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+    $.get("navigation.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+    </script>  
+
+
+
+    <section class="book" id="book">
+        <div class="row">
+            <h1><b>Book Appoinment</b></h1>
+            <form action="" method="post">
+                <div class="info">
+                    <span>Your Name :</span>
+                    <input type="text" name="Name" placeholder="Enter Your Name" class="box" required>
+                </div>
+                <div class="info">
+                    <span>Gender :</span>
+                    <input list="gend" name="Gender" placeholder="Select Gender" class="box" required>
+                    <datalist id="gend">
+                    <option value="Male">
+                    <option value="Female">
+                    <option value="Others">
+                    </datalist>
+                </div>
+                <div class="info">
+                    <span>Select Department :</span>
+                    <input list="depts" name="dept" placeholder="Select Department" class="box" required>
+                </div>
+                 <datalist id="depts">
+                    <option value="Cardiology">
+                    <option value="Burn and Plastic Surgery">
+                    <option value="ENT">
+                    <option value="Gynacology">
+                    <option value="Neurology">
+                    <option value="Orthopedic">
+                    <option value="Pediatric">
+                    <option value="Internal Medicine">
+                  </datalist>
+                  <div class="info">
+                    <span>Select Doctor :</span>
+                    <input list="docts" name="doct" placeholder="Select Doctor" class="box" required>
+                </div>
+                <div class="info">
+                    <span>E-mail :</span>
+                    <input type="email" name="email" placeholder="Enter Your Email" class="box" required>
+                </div>
+                <div class="info">
+                    <span>Your Number :</span>
+                  <input type="number" name="number" placeholder="Enter Your Number" class="box" required>
+                </div>
+                <div class="info">
+                    <span>Select Date:</span>
+                  <input type="date" class="box" required>
+                </div>
+                <div class="info">
+                    <span>Select Time:</span>
+                  <input type="time" class="box" required>
+                </div> 
+                <input type="submit" value="Make Appoinment" name="submit" class="btn"> 
+                <!-- <button>Make Appoinment</button>-->
+            </form>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+      <div id="fot-placeholder"></div>
+      <script src="//code.jquery.com/jquery.min.js"></script>
+  <script>
+  $.get("footer.html", function(data){
+      $("#fot-placeholder").replaceWith(data);
+  });
+  </script>
+      </body>
+</html>

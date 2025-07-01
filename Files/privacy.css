@@ -1,0 +1,315 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+   
+    text-decoration:none ;
+}
+
+
+html{
+    font-size: 100%;
+     overflow-x: hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+/*pricacy body*/
+
+.header1  {
+    font-size: 20px;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    color: #000000;
+    min-width: 200px;
+    padding-left: 40%;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    
+    }
+    
+    .header1 h1{
+        font-size: 40px;
+        background: linear-gradient(rgb(34, 29, 106),rgb(34, 29, 106)) center bottom; 
+  background-size: 0% 2px; 
+  background-repeat:no-repeat; 
+  transition: all 0.45s;
+  padding-bottom: 10px;
+    }
+    .header1 h1:hover{
+        font-size: 42px;
+        margin-top: 10px;
+        color: rgb(23, 23, 126);
+        background-size: 100% 3px;
+
+    }
+    
+    .content{
+        float:inline-start;
+        margin-left:30px;
+        margin-right: 30px;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .content p{
+        font-size: 30px;
+        font-family: serif;
+        margin-top: 10px;
+        line-height: 1.5;
+      
+        text-align: justify;
+        
+    }
+    .content1{
+        float: none;
+        margin-left:30px;
+        margin-right: 30px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .content1 h1{
+        font-size: 30px;
+        letter-spacing: 1px;
+        margin-top: 25px;
+        color: black;
+        display: inline-block;
+        text-align: center;
+        align-items: center;
+        background: linear-gradient(rgb(34, 29, 106),rgb(34, 29, 106)) center bottom; 
+  background-size: 50% 2px; 
+  background-repeat:no-repeat; 
+  transition: all 0.45s;
+  padding-bottom: 10px;
+        
+    }
+    .content1 h1:hover{
+       font-size: 32px;
+        color: rgb(23, 23, 126);
+        background-size: 100% 2px;
+
+    }
+    
+    
+    .content1 p{
+        font-size: 20px;
+        font-family: serif;
+        margin-top: 10px;
+        line-height: 1.5;
+        padding: 5px;
+        text-align:left;
+        text-align: justify;
+    }
+    
+    .content2{
+        float: none;
+        margin-left:30px;
+        margin-right: 30px;
+        text-align: center;
+        align-items: center;
+    }
+    
+
+.content2 h1{
+    font-size: 30px;
+    letter-spacing: 1px;
+   
+    margin-top: 25px;
+    color: black;
+    text-align: center;
+    align-items: center;
+     display: inline-block;
+    background: linear-gradient(rgb(34, 29, 106),rgb(34, 29, 106)) center bottom; 
+  background-size: 50% 2px; 
+  background-repeat:no-repeat; 
+  transition: all 0.45s;
+  padding-bottom: 10px;
+        
+    }
+    .content2 h1:hover{
+        font-size: 32px;
+        color: rgb(23, 23, 126);
+        background-size: 100% 2px;
+
+    }
+
+
+.content2 p{
+    font-size: 20px;
+    font-family: serif;
+    margin-top: 10px;
+    line-height: 1.5;
+    padding: 5px;
+    text-align: justify;
+}
+
+
+.content3{
+    float: none;
+    margin-left:30px;
+    margin-right: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.content3 h1{
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    background: linear-gradient(rgb(34, 29, 106),rgb(34, 29, 106)) center bottom; 
+  background-size: 50% 2px; 
+  background-repeat:no-repeat; 
+  transition: all 0.45s;
+  padding-bottom: 10px;
+        
+    }
+    .content3 h1:hover{
+        font-size: 32px;
+        color: rgb(23, 23, 126);
+        background-size: 100% 2px;
+
+    }
+.content3 p{
+    font-size: 20px;
+    font-family: serif;
+    margin-top: 10px;
+    line-height: 1.5;
+    padding: 5px;
+    text-align: justify;}
+
+.content4{
+    float: none;
+    margin-left:30px;
+    margin-right: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.content4 h1{
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    background: linear-gradient(rgb(34, 29, 106),rgb(34, 29, 106)) center bottom; 
+  background-size: 50% 2px; 
+  background-repeat:no-repeat; 
+  transition: all 0.45s;
+  padding-bottom: 10px;
+        
+    }
+    .content4 h1:hover{
+        font-size: 32px;
+        color: rgb(23, 23, 126);
+        background-size: 100% 2px;
+
+    }
+.content4 p{
+    font-size: 20px;
+    font-family: serif;
+    margin-top: 10px;
+    line-height: 1.5;
+    padding: 5px;
+    text-align: justify;
+}
+
+
+
+.content5{
+    float: none;
+    margin-left:30px;
+    margin-right: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.content5 h1{
+    font-size: 30px;
+    letter-spacing: 3.5px;
+    margin-top: 25px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    
+    display: inline-block;
+    background: linear-gradient(rgb(34, 29, 106),rgb(34, 29, 106)) center bottom; 
+  background-size: 50% 2px; 
+  background-repeat:no-repeat; 
+  transition: all 0.45s;
+  padding-bottom: 10px;
+        
+    }
+    .content5 h1:hover{
+        font-size: 32px;
+        color: rgb(23, 23, 126);
+        background-size: 100% 2px;
+
+    }
+
+
+.content5 p{
+    font-size: 20px;
+    font-family: serif;
+    margin-top: 10px;
+    line-height: 1.5; padding: 5px;
+    text-align: justify;
+}
+
+
+
+
+.content6{
+    float: none;
+    margin-left:30px;
+    margin-right: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.content6 h1{
+    font-size: 30px;
+    letter-spacing: 3.5px;
+    margin-top: 25px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    
+    display: inline-block;
+    background: linear-gradient(rgb(34, 29, 106),rgb(34, 29, 106)) center bottom; 
+  background-size: 50% 2px; 
+  background-repeat:no-repeat; 
+  transition: all 0.45s;
+  padding-bottom: 10px;
+        
+    }
+    .content6 h1:hover{
+        font-size: 32px;
+        color: rgb(23, 23, 126);
+        background-size: 100% 2px;
+
+    }
+
+
+.content6 p{
+    font-size: 20px;
+    font-family: serif;
+    margin-top: 10px;
+    line-height: 1.5;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}

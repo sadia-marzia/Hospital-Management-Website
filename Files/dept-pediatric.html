@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dept.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Welcome to our service</title>
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+<script>
+$.get("navigation.html", function(data){
+    $("#nav-placeholder").replaceWith(data);
+});
+</script>
+<section class="department" id="department">
+    <div class="backg">
+        <h1><b>OUR DEPARTMENTS</b></h1>
+         <p>A list of all our departments.</p> 
+    </div>
+</section>
+
+<section class="dept" id="dept">
+    <div class="dep">
+        <h1 class="heading">Our Departments</h1>
+        <ul id="dept">
+            <li ><a href="department.html" >All Department</a></li>
+            <li ><a href="dept-interconventional-cardiology.html">Interconventional Cardiology</a></li>
+            <li><a href="dept-internal-medicine.html">Internal Medicine</a></li>
+            <li><a href="dept-neurology.html">Neurology</a></li>
+            <li><a href="dept-gynacology.html">Gynaecology</a></li>
+            <li class="active"><a href="dept-pediatric.html">Pediatric and Neonatology</a></li>
+            <li><a href="dept-ent.html">ENT</a></li>
+            <li><a href="dept-orthopedic.html">Orthopedic</a></li>
+            <li><a href="dept-burn.html">Burn & Plastic Surgery</a></li>
+        </ul>
+    </div>
+</section>
+
+<section class="description" id="description">
+    <h1 class="heading">Interconventional Cardiology</h1>
+    <div class="des">
+        <h4>Pediatrics (also spelled Paediatrics) is a branch of medicine that deals with the medical care of infants, children and adolescents. This department comprises of very prominent & distinguished physicians who are dedicated to the health and well-being of infants, children, adolescents and young adults.</h4>
+        <p>A Pediatrician is a child’s physician who provides preventive health maintenance for healthy children, medical care for children who are acutely ill.Pediatricians manage the physical, mental and emotional well-being of their patients in every stage of their development – to reduce infant mortality, control infectious diseases and ease the difficulties of children and adolescents with chronic condition.</p>
+        <p>Based on your child’s unique needs, our team of specialists and nurses treat and care for every child as an individual.</p>
+        <p><br></p>
+        <p>Safeguarding your children’s health is our utmost priority. Our paediatricians are sensitive to these young patients’ needs and responsive to all your concerns – providing your family confidence and reassurance through your child’s journey to better health.</p>
+        <p><br></p>
+    </div>    
+    <div class="link">
+
+        <img src="/pics/Pediatrics.webp" alt="cardiology">
+        <div class="option">
+            <h6><a href="Pediatrics.html">Check out for our consultant </a><a href="contactus.html">Contact Us</a><a href="appoinment.html">Book an Appoinment</a></h6>
+            
+
+        </div>
+       
+
+    </div>
+        
+
+
+
+</section>
+
+
+<div id="fot-placeholder"></div>
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script>
+$.get("footer.html", function(data){
+$("#fot-placeholder").replaceWith(data);
+});
+</script>
+
+</body>
+</html>
